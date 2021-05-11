@@ -29,7 +29,7 @@ export const Profile: FunctionComponent = () => {
         <div id="content">
           <Topbar />
           <div className="container-fluid">
-            <div className="d-sm-flex align-items-center justify-content-between mb-4">
+            <div className="row">
               <h2 className="mb-0 text-gray-800">Профіль</h2>
             </div>
             <hr />
