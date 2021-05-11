@@ -1,3 +1,8 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import './sb-admin-2.min.css';
+@import './sb-admin/sb-admin-2.scss';
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +15,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.kpi-bg {
+  background-image: url('../assets/images/kpi-background.jpg');
+  background-size: cover;
+  filter: blur();
+  height: 100vh;
 }

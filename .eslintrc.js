@@ -65,5 +65,9 @@ module.exports = {
         custom: 'ignore',
       },
     ],
+
+    'jsx-a11y/control-has-associated-label': OFF,
+    'jsx-a11y/click-events-have-key-events': OFF,
+    'jsx-a11y/no-noninteractive-element-interactions': OFF,
   },
 };
